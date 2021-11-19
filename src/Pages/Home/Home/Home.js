@@ -11,6 +11,7 @@ import Services from '../Services/Services';
 import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
 import BannerCard from '../BannerCard/BannerCard';
+import Dactors from '../Dactors/Dactors';
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
             <Services></Services>
             <Exceptional></Exceptional>
             <AppointmentBanner></AppointmentBanner>
+            <Dactors></Dactors>
             <Patients></Patients>
             <Doctors></Doctors>
             <Contact></Contact>
